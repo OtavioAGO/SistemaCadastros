@@ -1,6 +1,6 @@
 package exceptions;
 
-public class PerguntaInvalidaException extends Exception{
+public class PerguntaInvalidaException extends RuntimeException{
     public PerguntaInvalidaException(){
         super("Não é possivel remover as perguntas originais.");
     }
